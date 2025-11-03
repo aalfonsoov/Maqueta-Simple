@@ -42,7 +42,7 @@ body {
   letter-spacing: 1px;
 }
 
-.cabecera subtitle {
+.cabecera .subtitle {
   font-weight: 300;
   font-size: 1.2rem;
 }
@@ -75,7 +75,7 @@ body {
 }
 
 /* MAIN */
-.site-main {
+.principal {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -125,7 +125,7 @@ body {
 }
 
 /* ASIDE */
-.sidebar {
+.lateral {
   flex: 1;
   background: #f1f1f1;
   border-radius: 12px;
@@ -133,15 +133,15 @@ body {
   animation: fadeIn 1s ease-in;
 }
 
-.sidebar h3 {
+.lateral h3 {
   margin-bottom: 1rem;
 }
 
-.sidebar ul {
+.lateral ul {
   list-style: none;
 }
 
-.sidebar a {
+.lateral a {
   text-decoration: none;
   color: #333;
   display: block;
@@ -149,12 +149,12 @@ body {
   transition: color 0.3s ease;
 }
 
-.sidebar a:hover {
+.lateral a:hover {
   color: #f11712;
 }
 
 /* FOOTER */
-.site-footer {
+.pie {
   background-color: #111;
   color: white;
   text-align: center;
@@ -176,6 +176,7 @@ body {
   color: #f11712;
   transform: scale(1.2);
 }
+
 
 
 
