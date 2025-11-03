@@ -100,7 +100,6 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   transition: transform 0.4s ease, box-shadow 0.4s ease;
   animation: slideUp 1s ease-in-out;
-  max-block-size: 50%;
 }
 
 .card:hover {
@@ -176,6 +175,7 @@ body {
   color: #f11712;
   transform: scale(1.2);
 }
+
 
 
 
