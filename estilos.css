@@ -83,20 +83,6 @@ body {
   gap: 2rem;
 }
 
-.contenido {
-  display: flex;
-  flex-wrap: wrap;          /* Permite que las tarjetas bajen de línea */
-  justify-content: center;  /* Centra las tarjetas horizontalmente */
-  align-items: stretch;     /* Todas con la misma altura */
-  gap: 2rem;                /* Espacio entre ellas */
-  flex: 3;
-  width: 100%;
-  max-width: 1800px;
-  margin: 0 auto;
-  padding: 2rem 0;
-}
-
-
 
 
 .contenido {
@@ -190,5 +176,6 @@ body {
   color: #f11712;
   transform: scale(1.2);
 }
+
 
 
