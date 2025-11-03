@@ -66,12 +66,12 @@ body {
   font-weight: 500;
   padding: 0.5rem 1rem;
   border-radius: 4px;
-  transition: all 5.3s ease;
+  transition: all 0.3s ease;
 }
 
 .menu a:hover {
   background-color: #f11712;
-  transform: translateZ(-300px);
+  transform: translateY(-3px);
 }
 
 /* MAIN */
@@ -175,6 +175,7 @@ body {
   color: #f11712;
   transform: scale(1.2);
 }
+
 
 
 
